@@ -6,7 +6,7 @@ title: Verif.AI
 layout: home
 ---
 
-# Impact
+## Impact
 
 > **Potential Impact / Meeting a strong market need**
 > - Project is likely to provide a highly usable tool or insight to users
