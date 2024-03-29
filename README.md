@@ -1,5 +1,7 @@
 # Verif.AI Website
 
+See website at https://verif-ai.github.io/
+
 ## Installation
 - [Jekyll](https://jekyllrb.com/docs/installation/)
 
