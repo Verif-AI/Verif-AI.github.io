@@ -8,7 +8,7 @@ permalink: /about/
 
 Verif.AI is our capstone project for our capstone project at UC Berkeley.
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <img style="padding: 10px;" src="../images/people/cole.png" alt="cole">
     <h3 style="display: inline; padding: 20px;">Cole Agard</h3>
 </div>
@@ -31,6 +31,6 @@ Verif.AI is our capstone project for our capstone project at UC Berkeley.
 <div style="text-align: center;">
     <img style="padding: 10px;" src="../images/people/steven.png" alt="steven">
     <h3 style="display: inline; padding: 20px;">Steven Sung</h3>
-</div>
+</div> -->
 
 
