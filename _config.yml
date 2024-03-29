@@ -19,7 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Verif.AI
-email: sysung98@berkeley.edu
+email: 
+- coleagard@ischool.berkeley.edu
+- ytong82@ischool.berkeley.edu
+- garosen@ischool.berkeley.edu
+- michael.denton@ischool.berkeley.edu
+- sysung98@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Website about Verif.AI, the AI-powered fact checking tool
   for political facts!
