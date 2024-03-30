@@ -38,7 +38,9 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - about.markdown
+  - index.md
+  - motivation.md
+  - about.md
   
 # Exclude from processing.
 # The following items will not be processed, by default.
