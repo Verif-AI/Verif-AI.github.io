@@ -26,7 +26,7 @@ email: >-
   michael.denton@ischool.berkeley.edu
   sysung98@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Verif.AI, the AI-powered fact checking tool for political facts!
+  Verif.AI, the AI-powered fact checking tool for political facts
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -38,9 +38,10 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - index.md
-  - motivation.md
-  - about.md
+  - header_pages/motivation.md
+  - header_pages/product.md
+  - header_pages/model.md
+  - header_pages/about.md
   
 # Exclude from processing.
 # The following items will not be processed, by default.

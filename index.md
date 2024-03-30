@@ -5,4 +5,3 @@
 title: Verif.AI
 layout: home
 ---
-

@@ -27,18 +27,3 @@ Traditional fact-checking, while crucial, is often slow and resource-intensive. 
 ### Empowering Users
 
 Verif.AI stands out by going beyond simply flagging misinformation.  We provide users with the latest, relevant information from credible sources. This empowers you to not only identify falsehoods but also to actively seek out truth. Additionally,  Verif.AI is designed for accessibility. Unlike other solutions, Verif.AI is a browser extension, readily available for all users regardless of technical expertise. This widespread accessibility is crucial in fostering a more informed and resilient online community.
-
-> **Potential Impact / Meeting a strong market need**
-> - Project is likely to provide a highly usable tool or insight to users
-> - Effectively identifies and addresses a specific problem space or need.
-
-> **Project website and MVP clarity** 
-> - Project offers a working minimal viable product with a completed set of features or results, given the defined problem and scope.
-
-> **Model Evaluation** 
-> - Team demonstrates a clear set of steps taken to validate and evaluate modeling approach, techniques, and results from the project
-> - Clear articulation of decision making process, trade-offs, and key learnings.
-
-> **Presentation**
-> - Team delivers a final project presentation powerpoint and MVP demo effectively, clearly and concisely within allotted time slots. 
-> - Presentation structure and organization of contents allow the audience to understand sequence, process of project work, outcomes, and impact.
