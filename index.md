@@ -7,7 +7,7 @@ layout: home
 ---
 <style>
     .main {
-        margin: 250px auto;
+        margin: 400px auto;
         position: center;
     }
 
