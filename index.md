@@ -6,14 +6,19 @@ title:
 layout: home
 ---
 <style>
+    .caption {
+        margin: 50px 100px;
+        color: #4880F0;
+        text-align: center;
+        font-family: 'Helvetica', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 30px;
+    }
+
     .main {
-        margin: 400px auto;
-        position: center;
+        margin: 200px auto;
     }
 
     .logo {
-        top: 0;
-        left: 0;
         min-width: 100%;
         min-height: 100%;
         width: auto;
@@ -33,6 +38,9 @@ layout: home
 
 <div class="main">
     <img src="/images/index/verifai_logo.svg" class="logo">
+    <p class="caption">
+        <b>AI-powered Fact Checker</b>
+    </p>
     <a href="https://chromewebstore.google.com/">
         <img src="/images/index/download_now.svg" class="download">
     </a>
