@@ -4,33 +4,66 @@ title: About
 permalink: /about/
 ---
 
-# About
+<style>
+    .text-container {
+        display: flex;
+        align-items: center;  /* Vertically align content */
+        padding-left: 200px;
+        padding-bottom: 50px;
+    }
+</style>
 
-Verif.AI is our capstone project for our capstone project at UC Berkeley.
-
-<!-- <div style="text-align: center;">
-    <img style="padding: 10px;" src="../images/people/cole.png" alt="cole">
-    <h3 style="display: inline; padding: 20px;">Cole Agard</h3>
+<!-- Gad Rosen -->
+<div class="text-container">
+  <div>
+    <img src="../images/people/gad.png" alt="cole">
+  </div>
+  <div style="display: inline; padding-left: 50px;">
+    <h2>Gad Rosen</h2>
+    <h4>Product Management</h4>
+  </div>
 </div>
 
-<div style="text-align: center;">
-    <img style="padding: 10px;" src="../images/people/david.png" alt="david">
-    <h3 style="display: inline; padding: 20px;">David Tong</h3>
+<!-- Steven Sung -->
+<div class="text-container">
+  <div>
+    <img src="../images/people/steven.png" alt="cole">
+  </div>
+  <div style="display: inline; padding-left: 50px;">
+    <h2>Steven Sung</h2>
+    <h4>Project Management</h4>
+  </div>
 </div>
 
-<div style="text-align: center;">
-    <img style="padding: 10px;" src="../images/people/gad.png" alt="gad">
-    <h3 style="display: inline; padding: 20px;">Gad Rosen</h3>
+<!-- Cole Agard -->
+<div class="text-container">
+  <div>
+    <img src="../images/people/cole.png" alt="cole">
+  </div>
+  <div style="display: inline; padding-left: 50px;">
+    <h2>Cole Agard</h2>
+    <h4>Chief Software Engineer</h4>
+  </div>
 </div>
 
-<div style="text-align: center;">
-    <img style="padding: 10px;" src="../images/people/michael.png" alt="michael">
-    <h3 style="display: inline; padding: 20px;">Michael Denton</h3>
+<!-- Michael Denton -->
+<div class="text-container">
+  <div>
+    <img src="../images/people/michael.png" alt="cole">
+  </div>
+  <div style="display: inline; padding-left: 50px;">
+    <h2>Michael Denton</h2>
+    <h4>Chief Data Scientistr</h4>
+  </div>
 </div>
 
-<div style="text-align: center;">
-    <img style="padding: 10px;" src="../images/people/steven.png" alt="steven">
-    <h3 style="display: inline; padding: 20px;">Steven Sung</h3>
-</div> -->
-
-
+<!-- David Tong -->
+<div class="text-container">
+  <div>
+    <img src="../images/people/david.png" alt="cole">
+  </div>
+  <div style="display: inline; padding-left: 50px;">
+    <h2>David Tong</h2>
+    <h4>Chief Architect</h4>
+  </div>
+</div>
