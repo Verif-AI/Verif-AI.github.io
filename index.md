@@ -15,34 +15,161 @@ layout: home
     }
 
     .main {
-        margin: 200px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 55px);
+        min-height: calc(100vh - 55px);
+        margin-top: -30px;
+        margin-bottom: -30px;
+        /* there was some weird behavior when trying to make .main take up the entire screen's width */
+        /* background: linear-gradient(285deg, rgba(72,128,240,.2) 0%, rgba(88,144,255,0.05) 100%); */
+        /* width: 100vw; */
     }
 
     .logo {
-        min-width: 100%;
-        min-height: 100%;
+        height: 70px;
         width: auto;
-        height: auto;
-        /* z-index: -1; */
+        min-height: 70px;
+        margin-top: 40px;
+    }
+
+    .news {
+        display: none;
+    }
+
+    .newsSmall {
+        border-radius: 15px;
+        object-fit: contain;
+        height: 28vh;
     }
 
     .download {
-        margin: 100px;
         display: block;
-        width: 25%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .content {
+        width: 300px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftSide {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 18px;
+        color: #000000;
+        text-align: center;
+    }
+
+    @media (min-width: 768px) {
+        .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 55px);
+            min-height: calc(100vh - 55px);
+            margin-top: -30px;
+            margin-bottom: -30px;
+            /* there was some weird behavior when trying to make .main take up the entire screen's width */
+            /* background: linear-gradient(285deg, rgba(72,128,240,.2) 0%, rgba(88,144,255,0.05) 100%); */
+            /* width: 100vw; */
+        }
+        
+        .newsSmall {
+            display: none;
+        }
+
+        .news {
+            border-radius: 15px;
+            object-fit: cover;
+            margin-left: 30px;
+            height: 50vh;
+            display: inline;
+        }
+
+        .description {
+            text-align: left;
+            font-size: 18px;
+            color: #000000;
+        }
+
+        .leftSide {
+            margin-right: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .logo {
+            height: 100px;
+            width: auto;
+            min-height: 100px;
+        }
+
+        .content {
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .download {
+            margin-top: 0px;
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .news {
+            height: 60vh;
+        }
+
+         .content {
+            width: 500px;
+            margin-top: 20px;
+        }
+
+        .download {
+            display: block;
+            width: 160px;
+            height: auto;
+        }
     }
 
 </style>
 
 <div class="main">
-    <img src="/images/index/verifai_logo.svg" class="logo">
-    <p class="caption">
-        <b>AI-powered Fact Checker</b>
-    </p>
-    <a href="https://chromewebstore.google.com/">
-        <img src="/images/index/download_now.svg" class="download">
-    </a>
-<div>
+    <img src="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg" class="newsSmall" alt="news">
+    <div class="leftSide">
+        <link rel="prefetch" href="/images/index/verifai_logo.svg">
+        <link rel="prefetch" href="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg">
+        <img src="/images/index/verifai_logo.svg" class="logo" alt="VerifAI Logo">
+        <div class="content">
+            <!-- <h1 class="caption">AI-powered Fact Checker</h1> -->
+            <p class="description">
+                Introducing VerifAI, your advanced AI fact-checking assistant. With state-of-the-art technology, VerifAI ensures the accuracy of information, offering a reliable guide through misinformation for researchers, students, and truth-seekers.
+            </p>
+            <a href="https://chromewebstore.google.com/" style="display: inline-block;">
+                <img src="/images/index/download_now.svg" class="download" alt="Download Now">
+            </a>
+        </div>
+    </div>
+     <img src="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg" class="news" alt="news">
+</div>
 
