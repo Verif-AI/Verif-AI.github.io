@@ -163,7 +163,7 @@ layout: home
         <div class="content">
             <!-- <h1 class="caption">AI-powered Fact Checker</h1> -->
             <p class="description">
-                Introducing VerifAI, your advanced AI fact-checking assistant. With state-of-the-art technology, VerifAI ensures the accuracy of information, offering a reliable guide through misinformation for researchers, students, and truth-seekers.
+                VerifAI, an AI-powered fact checker, serves as a reliable guide through misinformation for researchers, students, and truth-seekers.
             </p>
             <a href="https://chromewebstore.google.com/" style="display: inline-block;">
                 <img src="/images/index/download_now.svg" class="download" alt="Download Now">
