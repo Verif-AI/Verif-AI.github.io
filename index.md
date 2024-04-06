@@ -166,7 +166,7 @@ layout: home
         <div class="content">
             <!-- <h1 class="caption">AI-powered Fact Checker</h1> -->
             <p class="description">
-                <b>AI-powered Fact Checker</b>
+                <b>AI-Powered Fact Checker</b>
             </p>
             <a href="https://chromewebstore.google.com/" style="display: inline-block;">
                 <img src="/images/index/download_now.svg" class="download" alt="Download Now">
