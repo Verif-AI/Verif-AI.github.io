@@ -98,7 +98,7 @@ layout: home
             padding-bottom: 50px;
             text-align: justify;
             font-size: 18px;
-            color: #808080;
+            color: #5C5C5C;
         }
 
         .leftSide {
