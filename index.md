@@ -7,11 +7,11 @@ layout: home
 ---
 <style>
     .caption {
-        margin: 50px 100px;
+        padding-left: 140px;
+        padding-bottom: 50px;
+        text-align: left;
+        font-size: 18px;
         color: #4880F0;
-        text-align: center;
-        font-family: 'Helvetica', -apple-system, BlinkMacSystemFont, sans-serif;
-        font-size: 30px;
     }
 
     .main {
@@ -33,6 +33,8 @@ layout: home
         width: auto;
         min-height: 70px;
         margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 90px;
     }
 
     .news {
@@ -68,12 +70,6 @@ layout: home
         align-items: center;
     }
 
-    .description {
-        font-size: 18px;
-        color: #4880F0;
-        text-align: center;
-    }
-
     @media (min-width: 768px) {
         .main {
             display: flex;
@@ -84,9 +80,6 @@ layout: home
             min-height: calc(100vh - 55px);
             margin-top: -30px;
             margin-bottom: -30px;
-            /* there was some weird behavior when trying to make .main take up the entire screen's width */
-            /* background: linear-gradient(285deg, rgba(72,128,240,.2) 0%, rgba(88,144,255,0.05) 100%); */
-            /* width: 100vw; */
         }
         
         .newsSmall {
@@ -102,11 +95,10 @@ layout: home
         }
 
         .description {
-            padding-left: 50px;
             padding-bottom: 50px;
-            text-align: left;
+            text-align: justify;
             font-size: 18px;
-            color: #4880F0;
+            color: #808080;
         }
 
         .leftSide {
@@ -133,7 +125,7 @@ layout: home
         }
 
         .download {
-            padding-left: 70px;
+            padding-left: 170px;
             margin-top: 0px;
         }
     }
@@ -162,11 +154,13 @@ layout: home
     <div class="leftSide">
         <link rel="prefetch" href="/images/index/verifai_logo.svg">
         <link rel="prefetch" href="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg">
-        <img src="/images/index/verifai_logo.svg" class="logo" alt="VerifAI Logo">
         <div class="content">
-            <!-- <h1 class="caption">AI-powered Fact Checker</h1> -->
-            <p class="description">
+            <img src="/images/index/verifai_logo.svg" class="logo" alt="VerifAI Logo">
+            <p class="caption">
                 <b>AI-Powered Fact Checker</b>
+            </p>
+            <p class="description">
+                Have you ever come across news that seemed too good (or bad) to be true? With the rise of fake news and misinformation, it's becoming increasingly difficult to distinguish fact from fiction. That's where Verif.AI comes in - our cutting-edge solution leverages an ensemble of fine-tuned Large Language Models (LLMs) augmented with RAG technology to combat misinformation in real-time. By using our browser extension, you can easily verify the accuracy of claims with unparalleled speed and reliability at scale. Our platform provides users with instant insights into the truthfulness of information, enabling informed decision-making and fostering a more resilient society. Join us in the fight against fake news and misinformation with Verif.AI - where truth is just a click away.
             </p>
             <a href="https://chromewebstore.google.com/" style="display: inline-block;">
                 <img src="/images/index/download_now.svg" class="download" alt="Download Now">
