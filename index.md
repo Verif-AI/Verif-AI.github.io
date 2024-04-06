@@ -70,7 +70,7 @@ layout: home
 
     .description {
         font-size: 18px;
-        color: #000000;
+        color: #4880F0;
         text-align: center;
     }
 
@@ -102,9 +102,11 @@ layout: home
         }
 
         .description {
+            padding-left: 50px;
+            padding-bottom: 50px;
             text-align: left;
             font-size: 18px;
-            color: #000000;
+            color: #4880F0;
         }
 
         .leftSide {
@@ -131,6 +133,7 @@ layout: home
         }
 
         .download {
+            padding-left: 70px;
             margin-top: 0px;
         }
     }
@@ -163,7 +166,7 @@ layout: home
         <div class="content">
             <!-- <h1 class="caption">AI-powered Fact Checker</h1> -->
             <p class="description">
-                VerifAI, an AI-powered fact checker, serves as a reliable guide through misinformation for researchers, students, and truth-seekers.
+                <b>AI-powered Fact Checker</b>
             </p>
             <a href="https://chromewebstore.google.com/" style="display: inline-block;">
                 <img src="/images/index/download_now.svg" class="download" alt="Download Now">
