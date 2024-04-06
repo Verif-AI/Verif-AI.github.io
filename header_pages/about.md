@@ -53,7 +53,7 @@ permalink: /about/
   </div>
   <div style="display: inline; padding-left: 50px;">
     <h2>Michael Denton</h2>
-    <h4>Chief Data Scientistr</h4>
+    <h4>Chief Data Scientist</h4>
   </div>
 </div>
 
