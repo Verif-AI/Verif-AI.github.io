@@ -150,7 +150,6 @@ layout: home
 </style>
 
 <div class="main">
-    <img src="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg" class="newsSmall" alt="news">
     <div class="leftSide">
         <link rel="prefetch" href="/images/index/verifai_logo.svg">
         <link rel="prefetch" href="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg">
@@ -159,14 +158,17 @@ layout: home
             <p class="caption">
                 <b>AI-Powered Fact Checker</b>
             </p>
-            <p class="description">
+            <!-- <p class="description">
                 Have you ever come across news that seemed too good (or bad) to be true? With the rise of fake news and misinformation, it's becoming increasingly difficult to distinguish fact from fiction. That's where Verif.AI comes in - our cutting-edge solution leverages an ensemble of fine-tuned Large Language Models (LLMs) augmented with RAG technology to combat misinformation in real-time. By using our browser extension, you can easily verify the accuracy of claims with unparalleled speed and reliability at scale. Our platform provides users with instant insights into the truthfulness of information, enabling informed decision-making and fostering a more resilient society. Join us in the fight against fake news and misinformation with Verif.AI - where truth is just a click away.
+            </p> -->
+            <p class="description">
+                Have you ever come across news that seemed too good (or bad) to be true? That's where Verif.AI comes in - our cutting-edge solution stands as a powerful shield against the rampant spread of misinformation. Verif.AI's user-friendly browser extension seamlessly verifies online claims with exceptional speed, empowering you to make informed decisions and build a stronger society. Join us in the fight against fake news and misinformation with Verif.AI - where truth is just a click away.
             </p>
             <a href="https://chromewebstore.google.com/" style="display: inline-block;">
                 <img src="/images/index/download_now.svg" class="download" alt="Download Now">
             </a>
         </div>
     </div>
-     <img src="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg" class="news" alt="news">
+    <img src="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg" class="news" alt="news">
 </div>
 
