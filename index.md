@@ -164,9 +164,9 @@ layout: home
             <p class="description">
                 Have you ever come across news that seemed too good (or bad) to be true? That's where Verif.AI comes in - our cutting-edge solution stands as a powerful shield against the rampant spread of misinformation. Verif.AI's user-friendly browser extension seamlessly verifies online claims with exceptional speed, empowering you to make informed decisions and build a stronger society. Join us in the fight against fake news and misinformation with Verif.AI - where truth is just a click away.
             </p>
-            <a href="https://chromewebstore.google.com/" style="display: inline-block;">
+            <!-- <åa href="https://chromewebstore.google.com/" style="display: inline-block;">
                 <img src="/images/index/download_now.svg" class="download" alt="Download Now">
-            </a>
+            </a> -->
         </div>
     </div>
     <img src="/images/index/markus-spiske-2G8mnFvH8xk-unsplash.jpg" class="news" alt="news">
