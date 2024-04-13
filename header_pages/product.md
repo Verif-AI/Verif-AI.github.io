@@ -12,4 +12,4 @@ To further empower you, Verif.AI assgns a **veracity score** to its justificatio
 
 Verif.AI doesn't stop at debunking misinformation, but also curates **relevant sources** from credible outlets, giving you the tools to delve deeper and form your own informed conclusions.
 
-> Add gif of entering the claim
+<!-- > Add gif of entering the claim -->
