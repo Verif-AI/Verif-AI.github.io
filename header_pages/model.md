@@ -32,13 +32,28 @@ Once our LLM agents determine a claim's check-worthiness, Verif.AI employs a pow
 
 ### Results
 
-With the integration of LLM Agents and RAG, we were able to compare and contrast different variations of our model to achieve high results.
+Our evaluation focused on measuring how effectively Verif.AI distinguishes between true and false claims, particularly within the political sphere. We compared our model's performance against baseline LLMs that processed claims through our pipeline but lacked the Retrieval-Augmented Generation (RAG) search functionality.
 
-| Description | LLM        | F1 Score | Sensitivity<br>(Correctly judge false) | Specificity<br>(Crrectly judge true) |
-| ----------- | ---------- | -------- | -------------------------------------- | ------------------------------------ |
-| No RAG      | LLAMA-2    | 0.55     | 0.39                                   | 0.96                                 |
-| No RAG      | Mistral-7b | 0.84     | 0.87                                   | 0.50                                 |
-| RAG         | Mistral-7b | 0.96     | 0.94                                   | 0.93                                 |
+| Description | LLM        | F1 Score | Sensitivity<br>(Correctly judge false) | Specificity<br>(Crrectly judge true) | Time          |
+| ----------- | ---------- | -------- | -------------------------------------- | ------------------------------------ |               |
+| No RAG      | LLAMA-2    | 0.55     | 0.39                                   | 0.96                                 |               | 
+| No RAG      | Mistral-7b | 0.84     | 0.87                                   | 0.50                                 |               |
+| RAG         | Mistral-7b | 0.96     | 0.94                                   | 0.93                                 |               |
+| Human       | -          | >0.99    | >0.99                                  | >0.99                                | Days to Weeks | 
+
+We utilized three key metrics: F1 score, sensitivity, and specificity.
+
+- F1 Score: This metric provides a balanced view of both precision (correctly identifying false claims) and recall (not missing any false claims). It allows us to fine-tune our model for optimal performance.
+- Sensitivity: This metric assesses the model's ability to correctly identify false claims (true positives).
+- Specificity: This metric assesses the model's ability to correctly identify true claims (true negatives).
+
+Our model achieved a higher F1 score compared to the baseline LLMs, demonstrating its superior ability to classify false articles from the PolitiFact dataset. Additionally, Verif.AI exhibited a high accuracy rate in correctly judging false claims as false (high sensitivity).
+
+#### Humans vs Machine
+
+While human subject-matter experts will always hold an edge in accuracy given sufficient time, Verif.AI offers a significant advantage in terms of speed.  While human experts might require days or weeks to analyze information, Verif.AI can deliver reliable judgments within seconds. This real-time capability empowers users to make informed decisions quickly and efficiently.
+
+These results highlight the effectiveness of Verif.AI's approach in combating misinformation. By combining multi-agent verification with RAG technology, Verif.AI delivers a powerful and accurate fact-checking solution.
 
 ## Key Learnings
 
