@@ -19,23 +19,32 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Verif.AI
-email: >-
-  coleagard@ischool.berkeley.edu
-  ytong82@ischool.berkeley.edu
-  garosen@ischool.berkeley.edu
-  michael.denton@ischool.berkeley.edu
-  sysung98@berkeley.edu
+author:
+  email: >-
+    coleagard@ischool.berkeley.edu
+    ytong82@ischool.berkeley.edu
+    garosen@ischool.berkeley.edu
+    michael.denton@ischool.berkeley.edu
+    sysung98@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Verif.AI, the AI-powered fact checking tool for political facts
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Verif-AI
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
+
+minima:
+  skin: classic
+  social_links:
+    - platform: github
+      user_url: https://github.com/Verif-AI/Verif-AI-Final
 
 header_pages:
   - header_pages/motivation.md
