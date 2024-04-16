@@ -11,7 +11,7 @@ In addition to the "true" or "false" labels, Verif.AI provides clear **justifica
 Verif.AI doesn't stop at debunking misinformation, but also curates **relevant sources** from credible outlets, giving you the tools to delve deeper and form your own informed conclusions.
 
 <p align="center">
-    <video width="700" controls autoplay>
+    <video width="700" controls>
         <source width="700" src="../images/product/verifai_video.mp4" type="video/mp4">
     </video>
 </p>
